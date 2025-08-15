@@ -1,39 +1,13 @@
-p {
-  background-color: blue;
+h2 {
+  color: #6B8E23;
+  font-size: 32px;
 }
 
-.white {
-  color: white;
+h2 + p {
+  color: #20B2AA;
+  font-size: 20px;
 }
 
-.yellow {
-  color: yellow;
-}
-
-.red {
+h3 + p {
   color: red;
-}
-
-.back-gray {
-  background-color: gray;
-}
-
-.blue {
-  color: blue;
-}
-
-.back-green {
-  background-color: green;
-}
-
-.back-brown {
-  background-color: brown;
-}
-
-li {
-  font-size: 16px;
-}
-
-span {
-  font-size: 12px;
 }
