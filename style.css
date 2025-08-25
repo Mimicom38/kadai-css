@@ -1,14 +1,9 @@
-img {
-  
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+input:focus {
+  background-color: #CCFFCC;
+  outline-color: green;
 }
 
-header {
-  color: white;
-  background-color: navy;
-  position: sticky;
-  top: 0;
-  opacity: 0.9;
+button:hover {
+  background-color: #FFFFA8;
+  width: 52px;
 }
