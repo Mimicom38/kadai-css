@@ -1,13 +1,14 @@
-p {
-  display: inline-block;
-  background-color: #00008B;
+img {
+  
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+header {
   color: white;
-  width: 160px;
-  text-align: center;
-  padding: 10px 10px;
-  margin-right: 20px;
-  border: yellow 5px dotted;
-  border-style: dotted ridge  ridge solid;
-  border-color: yellow yellow red;
-  border-width: 5px 10px 10px 5px;
+  background-color: navy;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
 }
