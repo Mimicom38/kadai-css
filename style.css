@@ -1,9 +1,12 @@
-input:focus {
-  background-color: #CCFFCC;
-  outline-color: green;
+img {
+  width: 300px;
+  height: 300px;
 }
 
-button:hover {
-  background-color: #FFFFA8;
-  width: 52px;
+div {
+  box-sizing: border-box;
+  width: 320px;
+  height: 360px;
+  border: 1px solid #800000;
+  display: inline-block;
 }
