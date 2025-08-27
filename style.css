@@ -1,8 +1,27 @@
 .container {
   display: grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: stretch;
-  gap: 10px 150px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+}
 
+div > div {
+  outline: 1px black solid;
+}
+
+.item2 {
+  grid-row: span 2;
+}
+
+.item3 {
+  grid-row: 3 / span 2;
+}
+
+
+.item5 {
+  grid-column: 3;
+}
+
+.item6 {
+  grid-row: span 2;
+  grid-column: span 2;
 }
